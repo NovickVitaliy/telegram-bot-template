@@ -49,7 +49,7 @@ Link on the nuget.org: https://www.nuget.org/packages/TelegramBotConsoleDotNet/
 2. **Run with Docker:**
    ```bash
    docker build -t yourbotname .
-   docker run -e TELEGRAM_BOT_TOKEN=your_token_here yourbotname
+   docker run -e TelegramBotToken=your_token_here yourbotname
    ```
 
 ### Intro

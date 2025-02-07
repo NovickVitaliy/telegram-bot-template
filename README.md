@@ -19,31 +19,22 @@ Link on the nuget.org: https://www.nuget.org/packages/TelegramBotConsoleDotNet/
 - Docker (optional, for containerized deployment)
 
 ## Installation
-1. Pull the repository to local machine
-   ```bash 
-   git pull https://github.com/NovickVitaliy/telegram-bot-template
-   ```
-   or download it from the nuget.org
+1. Download template from the nuget.org
    ```bash 
    dotnet new install TelegramBotConsoleDotNet::1.0.0
    ```
-2. **Install the template:**
-Execute next command inside the core folder of the template
-   ```bash
-   dotnet new -i .
-   ```
 
-3. **Create a new bot project:**
+2. **Create a new bot project:**
    ```bash
    dotnet new telegram-bot-console -n YourBotName
    ```
 
-4. **Navigate to your project directory:**
+3. **Navigate to your project directory:**
    ```bash
    cd YourBotName
    ```
 
-5. **Configure your bot token:**
+4. **Configure your bot token:**
     - Set the `TELEGRAM_BOT_TOKEN` environment variable or create user secrets file or store it anywhere safe.
 
 ## Usage

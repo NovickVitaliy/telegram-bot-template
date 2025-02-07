@@ -4,6 +4,7 @@
 
 This is a .NET template for creating Telegram bots quickly and efficiently. It provides a pre-configured structure with DI and console hosting included for faster and better development. Docker included :)
 
+Link on the nuget.org: https://www.nuget.org/packages/TelegramBotConsoleDotNet/
 ## Features
 
 - Easy setup and configuration
@@ -21,6 +22,10 @@ This is a .NET template for creating Telegram bots quickly and efficiently. It p
 1. Pull the repository to local machine
    ```bash 
    git pull https://github.com/NovickVitaliy/telegram-bot-template
+   ```
+   or download it from the nuget.org
+   ```bash 
+   dotnet new install TelegramBotConsoleDotNet::1.0.0
    ```
 2. **Install the template:**
 Execute next command inside the core folder of the template

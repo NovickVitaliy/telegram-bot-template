@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageType>Template</PackageType>
-        <PackageVersion>1.0</PackageVersion>
+        <PackageVersion>1.1</PackageVersion>
         <PackageId>TelegramBotConsoleDotNet</PackageId>
         <Title>Telegram Bot Template</Title>
         <PackageReadmeFile>README.md</PackageReadmeFile>

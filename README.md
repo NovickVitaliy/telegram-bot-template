@@ -21,7 +21,7 @@ Link on the nuget.org: https://www.nuget.org/packages/TelegramBotConsoleDotNet/
 ## Installation
 1. Download template from the nuget.org
    ```bash 
-   dotnet new install TelegramBotConsoleDotNet::1.0.0
+   dotnet new install TelegramBotConsoleDotNet::1.1.0
    ```
 
 2. **Create a new bot project:**

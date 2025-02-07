@@ -20,7 +20,7 @@ This is a .NET template for creating Telegram bots quickly and efficiently. It p
 ## Installation
 1. Pull the repository to local machine
    ```bash 
-   git pull {}
+   git pull https://github.com/NovickVitaliy/telegram-bot-template
    ```
 2. **Install the template:**
 Execute next command inside the core folder of the template

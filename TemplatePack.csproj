@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageType>Template</PackageType>
+        <PackageVersion>1.0</PackageVersion>
+        <PackageId>TelegramBotConsoleDotNet</PackageId>
+        <Title>Telegram Bot Template</Title>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Authors>Novik Vitalii</Authors>
+        <Description>Template for creating an .NET telegram bot with DI, hosting, feature to process requests.</Description>
+        <PackageTags>dotnet-new;templates;telegram-bot</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <TargetFramework>net8.0</TargetFramework>
+
+        <IncludeContentInPack>true</IncludeContentInPack>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <ContentTargetFolders>content</ContentTargetFolders>
+        <NoWarn>$(NoWarn);NU5128</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include=".\**\*" Exclude=".\**\bin\**;.\**\obj\**" />
+        <Compile Remove="**\*" />
+        <None Include="README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+</Project>

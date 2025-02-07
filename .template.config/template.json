@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Novik Vitalii",
+    "classifications": [ "Console" ],
+    "identity": "TelegramBot.NET.Console",
+    "name": "Telegram Bot .NET Console",
+    "shortName": "telegram-bot-console",
+    "sourceName": "TelegramBotTemplate",
+    "preferNameDirectory":true,
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+  }

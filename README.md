@@ -35,7 +35,7 @@ Link on the nuget.org: https://www.nuget.org/packages/TelegramBotConsoleDotNet/
    ```
 
 4. **Configure your bot token:**
-    - Set the `TELEGRAM_BOT_TOKEN` environment variable or create user secrets file or store it anywhere safe.
+    - Set the `TelegramBotToken` environment variable or create user secrets file or store it anywhere safe.
 
 ## Usage
 
